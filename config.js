@@ -9,19 +9,20 @@ const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+	zenz: 'https://zenzapi.xyz',
 }
-
-// Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'nugra0308',
+	'https://zenzapi.xyz': 'nugra0308',
 }
-
-// Other
-global.owner = ['6283167714830','62895336722950','6287721317870','6288292024190']
-global.premium = ['6288292024190']
-global.packname = 'Aditya Nugraha'
-global.author = 'Nugra Bot'
+global.options = {
+    autoRead: true,
+    mute: false,
+    public: true
+}
+global.owner = ["6288292024190","6285784918313"]
+global.sessionName = "hisoka"
+global.packname = "hisoka-waweb.js"
+global.author = "Dika Ardnt."
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
